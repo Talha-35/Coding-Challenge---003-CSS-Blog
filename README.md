@@ -1,6 +1,6 @@
 # Coding Challenge - 003 : Checkout Form
 
-link : https://talha-35.github.io/Coding-Challenge---003-CSS-Blog/
+link : https://talha-35.github.io/Coding-Challenge---003-CSS-Blog/.
 
 Purpose of the this coding challenge is to write a code that make a checkout form.
 
