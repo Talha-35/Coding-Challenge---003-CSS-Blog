@@ -1,0 +1,132 @@
+
+.container {
+    font-family:sans-serif;
+    margin: 0 auto;    
+    /* width:60%; */
+    /* height:100%;   */
+    /* text-transform:capitalize;  */
+    display:grid;
+    flex-direction: column;
+    display: flex;
+    grid-gap:20px;     
+    /* grid-template-rows:repeat(4,1fr);
+    grid-template-columns:1fr;   */
+  }
+
+.header{
+    float: left;
+    display: flex;
+    position: relative;
+    z-index: 1;
+
+}
+
+.sidebar{
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    /* position: absolute; */
+    z-index: 2;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    z-index: 4;
+}
+
+.submit {
+    width: 50%;
+    height: 65%;
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: #f2994a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+
+/* body {
+    background-color: gray;
+}
+.header {
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 0;
+    
+}
+
+.head-right {  
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 5%;
+    color: rgb(59, 57, 57);
+    
+    border: 1px solid red;
+}
+
+.head-left {    
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    margin-bottom: -5%;
+    text-shadow: 2px 5px 5px rgb(82, 76, 76) ;
+    
+}
+
+.main{
+    background-color: rgb(226, 222, 222);
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;    
+}
+
+.main div h3 {
+    font-size: 11px;
+}
+
+.text {
+    font-size: 6px;
+}
+
+.main div h3 {
+    font-size: 13px;
+    text-shadow: 2px 5px 5px rgb(82, 76, 76) ;
+}
+.photos {    
+    margin: 8px;     
+    width: 40%;
+}
+
+.photos:hover {    
+    opacity: 0.8;
+    border: 3px solid black;    
+}
+
+.photo2 {
+    top: 0px;
+}
+
+.photo5 {
+    top: 0px;
+}
+
+
+ */

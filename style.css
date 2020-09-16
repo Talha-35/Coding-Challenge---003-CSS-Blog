@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+}
+.container {
+    font-family:sans-serif;
+    margin: 0 auto;    
+    width:60%;
+    /* height:100%;   */
+    text-transform:capitalize; 
+    display:grid;
+    grid-gap:20px;     
+    grid-template-rows:repeat(7,1fr);
+    grid-template-columns:repeat(2,1fr);  
+  }
+
+  .container > * {    
+      padding:20px;
+      font-size:20px;
+    }
+    
+                             /* HEADER */
+
+  .header{
+    /* border: 1px solid #ec0000; */
+    grid-area:1/1/2/-1; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: none;
+  
+  }
+
+  .header h1 {
+    font-family: Mon, Arial, Helvetica, sans-serif;
+
+  }
+  
+                             /* MAIN */
+
+  .main{
+    /* border: 1px solid #ec0000;     */
+    margin-top: -10px;
+    padding: 10%  5%;
+    grid-area:2/1/7/2;
+    font-size: 15px;
+    color: #4F4F4F;
+    /* height: 100%; */
+}
+  .main h2 {
+    color: #333
+    font-size: 18px;
+    
+  }
+
+  .box{
+    
+    height: 25px;
+    border: 1px solid #828282;
+    padding: 10px 5px 10px 35px;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px 0 ;
+  }
+.countpost {
+    display: flex;
+}
+
+#inpo1 {
+    margin-left: 8px;
+}
+  #country {
+   
+    height: 50px;
+    border: 1px solid #828282;
+    padding: 8px 5px 8px 35px;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 6px 0 ;
+  }
+  
+  #post {
+    
+    height: 30px;
+    border: 1px solid #828282;
+    padding: 8px 5px 8px 35px;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 6px 10px ;
+  }
+
+  #info1 {      
+      padding-left: 20px;
+  }
+
+  .main i { 
+    position: absolute; 
+} 
+  
+.main { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+  padding-left: 10px;
+  padding-top: 25px;
+  min-width: 40px; 
+} 
+
+.icon1 { 
+  padding-left: 19px;
+  padding-top: 25px;  
+  min-width: 40px;     
+} 
+  
+                           /* SIDEBAR */
+
+  .sidebar{
+    display:flex ;
+    margin-top: -10px;    
+    border-radius: 10px;
+    background-color: #eeeeee;
+    color: #4E5150;   
+    grid-area:2/2/7/3;
+    width: 70%;
+    height: 70%; 
+    overflow: hidden;
+  }
+
+  
+
+  .aside-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+  }
+
+  .aside-container .photo {
+      display: flex;
+  }
+
+  .span { 
+      flex-direction: column;
+      display: flex;
+      line-height: 35px;
+      padding: 10px;
+  }
+
+  .span1 {
+    font-family: Mon, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .color {
+    color: #f2994a;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  small {
+      text-decoration:line-through;
+      color: black;
+      font-weight: normal;
+  }
+
+  .check-sum {
+    
+    display: flex;
+    width: 90px;
+    height: 35px;    
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:5px;
+    background-color: rgba(173, 224, 153, 0.4);
+}
+
+  .counter {    
+    position: relative;
+    display: flex;
+    background-color: rgba(179, 169, 169, 0.4);
+    border-radius: 4px;    
+    font-weight: bolder;  
+    width: 116px;
+    justify-content: center;    
+}
+
+.counter:hover {
+    cursor: pointer;
+}
+
+.number {
+    font-weight: lighter;
+    margin: 0 10px;  
+}
+
+  .preis {
+      display:flex ;
+      flex-direction: column;
+      margin-top: 30%;
+      line-height: 30px;       
+  }
+
+  #preis2 {    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;    
+}
+  
+  .total {
+      padding-top: 15px;
+  }
+
+  .photo1 {
+    padding: 10px;
+  }
+
+  img {
+      width: 33%;
+      border-radius: 10px;
+      padding-right: 30px;
+  }
+  
+                            /* FOOTER */
+
+.footer {
+    grid-area:7/1/8/-1;
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+.submit {
+    width: 16%;
+    height: 65%;
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: #f2994a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+}
